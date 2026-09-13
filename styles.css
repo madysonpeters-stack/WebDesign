@@ -1,13 +1,17 @@
 * {
     box-sizing: border-box;
+    max-width: 2000px;
 }
 
 body {
     font-family: Arial, sans-serif;
     background: #9ac1f7;
-    color: #102a43;
+    color: #12202c;
     line-height: 1.6;
-}
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+} /*I changed the font and added margin and alignment*/
 section {
     padding: 100px 10%;
 }
@@ -18,15 +22,36 @@ h1 {
 h1 {
   text-align: center;
 }
+li {
+  display: inline-block;
+  background-color: #b9dcff;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+header {
+
+  border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+  background-color: rgb(208, 240, 255);
+  color:#12202c;
+}
 
 p.class {
   text-align: center;
+  margin: 20px;
 }
 
 
 
 h1, h2, h3, h4 {
     line-height: 1.1;
+    text-align: center;
+    font: "Arial", sans-serif;
+    color:#12202c;
 }
 
 a {
