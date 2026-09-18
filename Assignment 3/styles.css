@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    max-width: 2000px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #9ac1f7;
+    color: #12202c;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+} /*I changed the font and added margin and alignment*/
+section {
+    padding: 100px 10%;
+}
+
+
+h1, h2, h3, h4 {
+    line-height: 1.1;
+    text-align: center;
+    font: "Arial", sans-serif;
+    color:#12202c;
+}
+
+li {
+  display: inline-block;
+  background-color: #b9dcff;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+header {
+
+  border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+  background-color: rgb(208, 240, 255);
+  color:#12202c;
+}
+
+p.class {
+  text-align: center;
+  margin: 20px;
+}
+
+
+
+h1, h2, h3, h4 {
+    line-height: 1.1;
+    text-align: center;
+    font: "Arial", sans-serif;
+    color:#12202c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d5c8b9;
+}
+.hero-text {
+    text-align: center;
+}
+.hero-visual {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.hero img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  height: 555px;
+  object-fit: cover;
+}
+
+
+
+
+
+/* navigation */
+
+nav {
+    background-color: white;
+    padding: 18px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #173b63;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #4b78a8;
+}
+
+
+/* hero */
+
+.hero {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.eyebrow {
+    color: #4b78a8;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.headline {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.intro {
+    font-size: 22px;
+    color: #526579;
+}
+
+
+/* cards */
+
+.chart-card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(31, 59, 99, 0.12);
+    border: 1px solid #e4eaf1;
+    max-width: 400px;
+    margin: auto;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.chart-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 45px rgba(31, 59, 99, 0.18);
+}
+
+.chart-card span {
+    display: block;
+    color: #4b78a8;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chart-card strong {
+    display: block;
+    color: #173b63;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.chart-card p {
+    color: #6b7280;
+    margin: 0;
+}
+
+
+/* buttons */
+
+.buttons {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #173b63;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.25s ease;
+}
+
+.button:hover {
+    background-color: #4b78a8;
+    transform: translateY(-2px);
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: #173b63;
+    border: 2px solid #173b63;
+}
+
+
+/* image card */
+
+heroimage {
+    display: block;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+heroimage img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(31, 59, 99, 0.15);
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        margin: 30px auto;
+    }
+
+    .headline {
+        font-size: 36px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .chart-card {
+        max-width: 100%;
+    }
+}
+
+.montana-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.montana-gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.montana-gallery img:hover {
+    transform: scale(1.04);
+}
