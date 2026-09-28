@@ -18,9 +18,32 @@
 <p1>Thank you for visiting my website! If you have any questions, inquiries, 
     or would like to discuss potential collaborations, please feel free to reach 
     out to me using the contact form below. I look forward to hearing from you!</p1>
-   
+<hr>
+<form class="form-v2 ">
+      <fieldset>
+    <legend>Inquiries</legend>
+    <label>Your Name</label>
+  <input type="text" name="name" placeholder="Type your name here">
+  <label>What are you looking for?</label>
+  <input type="text" name="inquiry" placeholder="Type your inquiry here">
+  <label>Email Address</label>
+  <input type="email" name="email" placeholder="Type your email here">
+      <label>What are you looking to meet about?</label> <!-- Dropdown label -->
+    <select name="Meeting Type" id="meeting-type">
+      <option value="Inquiries">Inquiries</option>
+      <option value="Followup">Follow Up</option>
+      <option value="Informational">Informational</option>
+    </select>
+       <label>When is the best time to reach you?</label> <!-- radio section label -->
+   <label><input type="radio" name="format" value="print"> 8 AM - 10 AM</label>
+   <label><input type="radio" name="format" value="audio"> 10 AM - 12 PM</label>
+   <label><input type="radio" name="format" value="live"> 12 PM - 2 PM</label>
 
-    <button1>
-        <a href="#contact-form">BOOK NOW</a>
-    </button1>
+   <label>
+    <input type="checkbox" name="follow" value="yes">
+    Follow me on social media!
+   </label>
+  <button type="submit">Submit</button>
+      </fieldset>
+</form>
 
