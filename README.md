@@ -4,3 +4,7 @@
 
 ## Assignment 2
  ### I added 4 pages and created navigation between pages using lists. I am also try to use lists for a group of photos but am still working on it. I have added some more styling to the site. 
+
+## Assignment 4 
+### I added a form on the contact page allowing users to fill out their information
+### to get a cosultation with me. I also styled this on the css page. 
