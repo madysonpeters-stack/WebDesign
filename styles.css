@@ -331,6 +331,26 @@ heroimage img {
   border-radius: 6px;
   cursor: pointer;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+td:first-child {
+  font-weight: bold;
+  width: 25%;
+}
 
 .form-v2 button:hover {
   background-color: #7a564f;
