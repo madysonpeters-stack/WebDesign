@@ -355,3 +355,84 @@ td:first-child {
 .form-v2 button:hover {
   background-color: #7a564f;
 }
+.hero {
+    position: relative;
+    min-height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    
+    /* colors */
+    background: linear-gradient(
+        135deg,
+        #1d3156 0%,
+        #496894 45%,
+        #a4b5d1 75%,
+        #b0cbe6 100%
+    );
+}
+
+/* Keeps text above the decorative shapes */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+}
+
+.eyebrow {
+    color: #fed6ce;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: clamp(50px, 7vw, 90px);
+    line-height: 1;
+    margin: 0 0 25px;
+    font-weight: 700;
+}
+
+.hero-text {
+    color: #f5f8fc;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 550px;
+}
+
+/* Decorative blobs */
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+.blob-one {
+    width: 350px;
+    height: 350px;
+    background: #fed6ce;
+    opacity: 0.75;
+    right: -80px;
+    top: -100px;
+}
+
+.blob-two {
+    width: 250px;
+    height: 250px;
+    background: #b0cbe6;
+    opacity: 0.8;
+    right: 15%;
+    bottom: -120px;
+}
+
+.blob-three {
+    width: 150px;
+    height: 150px;
+    background: #a4b5d1;
+    opacity: 0.7;
+    right: 35%;
+    top: 60px;
+}
