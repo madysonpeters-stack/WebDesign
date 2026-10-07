@@ -453,3 +453,78 @@ td:first-child {
 
     opacity: 0.8;
 }
+/* =========================
+   Screens 600px or smaller
+========================= */
+
+@media screen and (max-width: 600px) {
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav {
+        padding: 15px 0;
+    }
+
+
+    /* Header */
+    .hero {
+        min-height: 260px;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .eyebrow {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+    /* Decorative shapes */
+    .blob-one {
+        width: 45px;
+        height: 45px;
+        left: 8%;
+        top: 30px;
+    }
+
+    .blob-two {
+        width: 35px;
+        height: 35px;
+        right: 8%;
+        bottom: 30px;
+    }
+
+    .blob-three {
+        width: 18px;
+        height: 18px;
+        right: 15%;
+        top: 35px;
+    }
+
+
+    /* Main content */
+    main {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+}
