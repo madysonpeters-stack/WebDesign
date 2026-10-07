@@ -20,4 +20,4 @@
 ##### Type of component: Marketing project gallery
 ##### Why it's needed: To organize my marketing projects in a clean and visual way so users can quickly see examples of my work and choose which projects they want to learn more about.
 ##### Features: The component will include a heading, project images, short descriptions, project categories, and links or buttons to view each project.
-##### What you'll use to build it: CSS Grid will be used to create a responsive layout of project cards. Flexbox may also be used inside each card to organize the text and buttons.
+##### What I'll use to build it: CSS Grid will be used to create a responsive layout of project cards. Flexbox may also be used inside each card to organize the text and buttons.
