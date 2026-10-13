@@ -13,6 +13,16 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+p1 {
+    font-family: Arial, sans-serif;
+    background: #b0cbe6;
+    color: #1d3156;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 
 section {
     padding: 100px 10%;
