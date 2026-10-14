@@ -21,3 +21,6 @@
 ##### Why it's needed: To organize my marketing projects in a clean and visual way so users can quickly see examples of my work and choose which projects they want to learn more about.
 ##### Features: The component will include a heading, project images, short descriptions, project categories, and links or buttons to view each project.
 ##### What I'll use to build it: CSS Grid will be used to create a responsive layout of project cards. Flexbox may also be used inside each card to organize the text and buttons.
+
+## Assignment 6
+#### I think that I would like to continue updating the site later in the semester. I want to figure out how to change the bubbles in my homepage hero header to be only in the background, and less prominent. I also want to make the about me section better by adding images, a map of places I like, and small things that click to pop-ups. Lastly, I want to be able to animate my pages, so words and images flow as the user scrolls throughout the pages.
